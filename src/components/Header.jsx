@@ -4,21 +4,22 @@ const Header = () => {
 
   return (
     <div className="header">
-      <Link to="/">
-        <p>Лого.</p>
-      </Link>
-      <nav>
-        <ul>
-          <Link to="/cart">
-            <p>О нас</p>
-          </Link>
-          <Link to="/suppliers">
-            Поставщики
-          </Link>
-        </ul>
+      <div className="header__container">
+        <Link to="/">
+          <p>Лого.</p>
+        </Link>
+        <nav>
+          <ul>
+            <Link to="/cart">
+              <p>О нас</p>
+            </Link>
+            <Link to="/suppliers">
+              Поставщики
+            </Link>
+          </ul>
 
-      </nav>
-
+        </nav>
+      </div>
     </div>
   )
 }
