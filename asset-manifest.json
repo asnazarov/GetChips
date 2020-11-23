@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/GetChips/static/css/main.e33f468f.chunk.css",
-    "main.js": "/GetChips/static/js/main.f82db61e.chunk.js",
-    "main.js.map": "/GetChips/static/js/main.f82db61e.chunk.js.map",
+    "main.css": "/GetChips/static/css/main.ce36fc93.chunk.css",
+    "main.js": "/GetChips/static/js/main.149c5b1d.chunk.js",
+    "main.js.map": "/GetChips/static/js/main.149c5b1d.chunk.js.map",
     "runtime-main.js": "/GetChips/static/js/runtime-main.9e5c4d65.js",
     "runtime-main.js.map": "/GetChips/static/js/runtime-main.9e5c4d65.js.map",
-    "static/js/2.45e3216c.chunk.js": "/GetChips/static/js/2.45e3216c.chunk.js",
-    "static/js/2.45e3216c.chunk.js.map": "/GetChips/static/js/2.45e3216c.chunk.js.map",
+    "static/js/2.d6a5b53b.chunk.js": "/GetChips/static/js/2.d6a5b53b.chunk.js",
+    "static/js/2.d6a5b53b.chunk.js.map": "/GetChips/static/js/2.d6a5b53b.chunk.js.map",
     "index.html": "/GetChips/index.html",
-    "static/css/main.e33f468f.chunk.css.map": "/GetChips/static/css/main.e33f468f.chunk.css.map",
-    "static/js/2.45e3216c.chunk.js.LICENSE.txt": "/GetChips/static/js/2.45e3216c.chunk.js.LICENSE.txt",
+    "static/css/main.ce36fc93.chunk.css.map": "/GetChips/static/css/main.ce36fc93.chunk.css.map",
+    "static/js/2.d6a5b53b.chunk.js.LICENSE.txt": "/GetChips/static/js/2.d6a5b53b.chunk.js.LICENSE.txt",
     "static/media/app.scss": "/GetChips/static/media/ProximaNova-Regular.d97f8f32.eot"
   },
   "entrypoints": [
     "static/js/runtime-main.9e5c4d65.js",
-    "static/js/2.45e3216c.chunk.js",
-    "static/css/main.e33f468f.chunk.css",
-    "static/js/main.f82db61e.chunk.js"
+    "static/js/2.d6a5b53b.chunk.js",
+    "static/css/main.ce36fc93.chunk.css",
+    "static/js/main.149c5b1d.chunk.js"
   ]
 }
