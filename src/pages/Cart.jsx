@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Suppliers = () => {
+const Cart = () => {
 
   return (
     <div className="container container--cart">
-      <h2>Поставщики</h2>
+      <h2>Страница корзины</h2>
     </div>
   )
 }
 
-export default Suppliers
+export default Cart

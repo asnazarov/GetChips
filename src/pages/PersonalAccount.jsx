@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Suppliers = () => {
+const PersonalAccount = () => {
 
   return (
     <div className="container container--cart">
-      <h2>Поставщики</h2>
+      <h2>Личный кабинет</h2>
     </div>
   )
 }
 
-export default Suppliers
+export default PersonalAccount

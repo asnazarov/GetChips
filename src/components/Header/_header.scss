@@ -1,0 +1,33 @@
+@import '../../scss/variables';
+
+.header {
+  border-bottom: 1px solid #ccc;
+  min-height: 76px;
+  display: flex;
+  align-items: center;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    margin: 0 auto;
+    max-width: 1230px;
+    width: 100%;
+  }
+
+  &__phone {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    padding: 10px 0 10px 15px;
+  }
+}

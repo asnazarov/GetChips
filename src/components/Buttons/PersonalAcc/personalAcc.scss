@@ -1,0 +1,9 @@
+.personalAcc {
+  display: flex;
+  align-items: center;
+
+  &__text {
+    margin-left: 5px;
+    white-space: nowrap;
+  }
+}

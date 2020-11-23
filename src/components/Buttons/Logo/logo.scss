@@ -1,7 +1,6 @@
 .logo {
   display: flex;
   align-items: center;
-  border: 1px solid darkgreen;
   margin: 0 20px 0 0;
 
   &__title {
@@ -10,5 +9,6 @@
     font-weight: 300;
     font-size: 22px;
     line-height: 20px;
+    text-transform: uppercase;
   }
 }
