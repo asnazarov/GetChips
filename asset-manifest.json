@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/GetChips/static/css/main.ce36fc93.chunk.css",
-    "main.js": "/GetChips/static/js/main.e26e9ebb.chunk.js",
-    "main.js.map": "/GetChips/static/js/main.e26e9ebb.chunk.js.map",
+    "main.js": "/GetChips/static/js/main.185242d7.chunk.js",
+    "main.js.map": "/GetChips/static/js/main.185242d7.chunk.js.map",
     "runtime-main.js": "/GetChips/static/js/runtime-main.9e5c4d65.js",
     "runtime-main.js.map": "/GetChips/static/js/runtime-main.9e5c4d65.js.map",
-    "static/js/2.d6a5b53b.chunk.js": "/GetChips/static/js/2.d6a5b53b.chunk.js",
-    "static/js/2.d6a5b53b.chunk.js.map": "/GetChips/static/js/2.d6a5b53b.chunk.js.map",
+    "static/js/2.ffe373b1.chunk.js": "/GetChips/static/js/2.ffe373b1.chunk.js",
+    "static/js/2.ffe373b1.chunk.js.map": "/GetChips/static/js/2.ffe373b1.chunk.js.map",
     "index.html": "/GetChips/index.html",
     "static/css/main.ce36fc93.chunk.css.map": "/GetChips/static/css/main.ce36fc93.chunk.css.map",
-    "static/js/2.d6a5b53b.chunk.js.LICENSE.txt": "/GetChips/static/js/2.d6a5b53b.chunk.js.LICENSE.txt",
+    "static/js/2.ffe373b1.chunk.js.LICENSE.txt": "/GetChips/static/js/2.ffe373b1.chunk.js.LICENSE.txt",
     "static/media/app.scss": "/GetChips/static/media/ProximaNova-Regular.d97f8f32.eot"
   },
   "entrypoints": [
     "static/js/runtime-main.9e5c4d65.js",
-    "static/js/2.d6a5b53b.chunk.js",
+    "static/js/2.ffe373b1.chunk.js",
     "static/css/main.ce36fc93.chunk.css",
-    "static/js/main.e26e9ebb.chunk.js"
+    "static/js/main.185242d7.chunk.js"
   ]
 }
