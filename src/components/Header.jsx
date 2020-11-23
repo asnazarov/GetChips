@@ -1,24 +1,31 @@
 import {Link} from "react-router-dom";
+import {Logo} from "./Buttons";
+
 
 const Header = () => {
 
   return (
     <div className="header">
       <div className="header__container">
-        <Link to="/">
-          <p>Лого.</p>
+        <Link className="logo" to="/">
+          <Logo/>
         </Link>
-        <nav>
-          <ul>
-            <Link to="/cart">
-              <p>О нас</p>
-            </Link>
-            <Link to="/suppliers">
-              Поставщики
-            </Link>
-          </ul>
 
+        <nav>
+          <ul className="menu">
+            <li>
+              <Link to="/cart">
+                <p>О нас</p>
+              </Link>
+            </li>
+            <li>
+              <Link to="/suppliers">
+                Поставщики
+              </Link>
+            </li>
+          </ul>
         </nav>
+
       </div>
     </div>
   )
