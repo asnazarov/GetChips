@@ -1,13 +1,18 @@
 import React from 'react';
+import {Banner, BannerServices, BannerStatistics, Cover} from "../components";
 
 const Home = () => {
 
   return (
     <div className="container">
-      <div className="content__top">
-       <h2>Home</h2>
-      </div>
-
+      {/*<h2>Home</h2>*/}
+      <Cover/>
+      <Banner>
+        <BannerServices/>
+      </Banner>
+      <Banner>
+        <BannerStatistics/>
+      </Banner>
     </div>
   )
 }

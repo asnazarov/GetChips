@@ -8,17 +8,28 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 40px 0;
+    padding: 8px 0 30px 0;
     flex-wrap: wrap;
     max-width: 1230px;
     width: 100%;
     margin: 0 auto;
-    border: 1px solid;
-    border: 1px solid;
   }
 
   &__item {
-    border: 1px solid greenyellow;
     padding: 20px 10px;
   }
+
+  &__wrapperText {
+    margin-top: 20px;
+  }
+
+  &__text {
+    color: #969696;
+    font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
 }

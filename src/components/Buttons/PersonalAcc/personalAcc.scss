@@ -3,7 +3,13 @@
   align-items: center;
 
   &__text {
+    font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
     margin-left: 5px;
     white-space: nowrap;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #969696;
   }
 }

@@ -1,0 +1,25 @@
+.bannerServices {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1020px;
+  margin: 0 auto;
+
+  &__item {
+    display: flex;
+    min-width: 230px;
+    max-width: 320px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  &__text {
+    font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 27px;
+    color: #333333;
+  }
+}

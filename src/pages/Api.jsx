@@ -1,13 +1,14 @@
 import React from 'react';
+import {Banner, BannerStatistics} from "../components";
 
 const Api = () => {
 
   return (
     <div className="container">
-      <div className="content__top">
-        <h2>API</h2>
-      </div>
-
+      <h2>API</h2>
+      <Banner>
+        <BannerStatistics/>
+      </Banner>
     </div>
   )
 }

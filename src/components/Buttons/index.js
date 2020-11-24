@@ -3,6 +3,7 @@ import LogoFooter from "./Logo/LogoFooter/LogoFooter";
 import Cart from "./Cart/Cart";
 import PersonalAcc from "./PersonalAcc/PersonalAcc";
 import Phone from "./Phone/Phone";
+import SearchBtn from "./SearchBtn/SearchBtn";
 
 export {
   LogoHeader,
@@ -10,4 +11,5 @@ export {
   Cart,
   PersonalAcc,
   Phone,
+  SearchBtn,
 }

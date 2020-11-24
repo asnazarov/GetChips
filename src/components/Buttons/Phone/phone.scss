@@ -1,12 +1,15 @@
 .phone {
-display: flex;
+  display: flex;
   align-items: center;
+
   &__number {
+    font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 15px;
     line-height: 20px;
     margin-left: 8px;
     white-space: nowrap;
+    color: #333333;
   }
 }

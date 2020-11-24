@@ -1,13 +1,14 @@
 import React from 'react';
+import {Banner, BannerStatistics} from "../components";
 
 const Contacts = () => {
 
   return (
     <div className="container">
-      <div className="content__top">
-        <h2>Страница контакты и реквизиты</h2>
-      </div>
-
+      <h2>Страница контакты и реквизиты</h2>
+      <Banner>
+        <BannerStatistics/>
+      </Banner>
     </div>
   )
 }

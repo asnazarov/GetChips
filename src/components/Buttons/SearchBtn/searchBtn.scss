@@ -1,0 +1,12 @@
+.search-btn{
+  padding: 9px;
+  background: #fff;
+  outline: none;
+  cursor: pointer;
+  border: 2px solid #439B24;
+  border-radius: 8px;
+  margin-top: 10px;
+  @media screen and (max-width: 1030px) {
+   width: 100%;
+  }
+}
