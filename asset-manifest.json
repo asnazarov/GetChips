@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GetChips/static/css/main.34f73201.chunk.css",
+    "main.css": "/GetChips/static/css/main.d280e9c7.chunk.css",
     "main.js": "/GetChips/static/js/main.4b756721.chunk.js",
     "main.js.map": "/GetChips/static/js/main.4b756721.chunk.js.map",
     "runtime-main.js": "/GetChips/static/js/runtime-main.9e5c4d65.js",
@@ -8,14 +8,14 @@
     "static/js/2.83efc79b.chunk.js": "/GetChips/static/js/2.83efc79b.chunk.js",
     "static/js/2.83efc79b.chunk.js.map": "/GetChips/static/js/2.83efc79b.chunk.js.map",
     "index.html": "/GetChips/index.html",
-    "static/css/main.34f73201.chunk.css.map": "/GetChips/static/css/main.34f73201.chunk.css.map",
+    "static/css/main.d280e9c7.chunk.css.map": "/GetChips/static/css/main.d280e9c7.chunk.css.map",
     "static/js/2.83efc79b.chunk.js.LICENSE.txt": "/GetChips/static/js/2.83efc79b.chunk.js.LICENSE.txt",
     "static/media/app.scss": "/GetChips/static/media/PFDinDisplayPro-Regular.ba1e612d.eot"
   },
   "entrypoints": [
     "static/js/runtime-main.9e5c4d65.js",
     "static/js/2.83efc79b.chunk.js",
-    "static/css/main.34f73201.chunk.css",
+    "static/css/main.d280e9c7.chunk.css",
     "static/js/main.4b756721.chunk.js"
   ]
 }
