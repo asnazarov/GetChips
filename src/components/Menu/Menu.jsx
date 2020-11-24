@@ -1,41 +1,40 @@
 import React from 'react';
 import './_menu.scss';
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 const Menu = () => {
   return (
     <nav>
       <ul className="menu">
-        <li className="menu__link">
-          <Link to="/about">
+        <li className="menu__list-item">
+          <NavLink to="/about" className="menu__link" activeClassName="menu__link_active">
             <p className="menu__text">О нас</p>
-          </Link>
+          </NavLink>
         </li>
-        <li className="menu__link">
-          <Link to="/suppliers">
+        <li className="menu__list-item">
+          <NavLink to="/suppliers" className="menu__link" activeClassName="menu__link_active">
             <p className="menu__text">Поставщики</p>
-          </Link>
+          </NavLink>
         </li>
-        <li className="menu__link">
-          <Link to="/delivery">
+        <li className="menu__list-item">
+          <NavLink to="/delivery" className="menu__link" activeClassName="menu__link_active">
             <p className="menu__text">Доставка</p>
-          </Link>
+          </NavLink>
         </li>
-        <li className="menu__link">
-          <Link to="/workingConditions">
+        <li className="menu__list-item">
+          <NavLink to="/workingConditions" className="menu__link" activeClassName="menu__link_active">
             <p className="menu__text">Условия работы</p>
-
-          </Link>
+          </NavLink>
         </li>
-        <li className="menu__link">
-          <Link to="/contacts">
+        <li className="menu__list-item">
+          <NavLink to="/contacts" className="menu__link" activeClassName="menu__link_active">
             <p className="menu__text">Контакты и реквизиты</p>
-          </Link>
+          </NavLink>
         </li>
-        <li className="menu__link">
-          <Link to="/api">
+        <li className="menu__list-item">
+          <NavLink to="/api" className="menu__link" activeClassName="menu__link_active">
             <p className="menu__text">API</p>
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </nav>

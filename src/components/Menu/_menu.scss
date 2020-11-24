@@ -1,7 +1,8 @@
 .menu {
   display: flex;
   padding: 10px 0;
-  &__link {
+
+  &__list-item {
     margin-left: 25px;
 
     &:first-child {
@@ -10,11 +11,17 @@
   }
 
   &__text {
+    font-family: 'PF DinDisplay Pro', sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 15px;
     line-height: 20px;
     white-space: nowrap;
   }
 
+  &__link {
+    &_active p {
+      color: #439B24;
+    }
+  }
 }
