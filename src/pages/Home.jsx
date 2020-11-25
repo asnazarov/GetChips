@@ -1,11 +1,10 @@
 import React from 'react';
-import {Banner, BannerServices, BannerStatistics, Cover} from "../components";
+import {Banner, BannerServices, BannerStatistics, Cover, FeedbackForm, Slider} from "../components";
 
 const Home = () => {
 
   return (
     <div className="container">
-      {/*<h2>Home</h2>*/}
       <Cover/>
       <Banner>
         <BannerServices/>
@@ -13,6 +12,8 @@ const Home = () => {
       <Banner>
         <BannerStatistics/>
       </Banner>
+      <Slider />
+      <FeedbackForm titleText="Обратная связь" />
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Banner, BannerStatistics} from "../components";
+import {Banner, BannerStatistics, FeedbackForm, Slider} from "../components";
 
 const Contacts = () => {
 
@@ -9,6 +9,8 @@ const Contacts = () => {
       <Banner>
         <BannerStatistics/>
       </Banner>
+      <FeedbackForm titleText="Обратная связь" />
+      <Slider />
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Banner, BannerStatistics} from "../components";
+import {Banner, BannerStatistics, Slider} from "../components";
 
 const Api = () => {
 
@@ -9,6 +9,7 @@ const Api = () => {
       <Banner>
         <BannerStatistics/>
       </Banner>
+      <Slider />
     </div>
   )
 }

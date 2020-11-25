@@ -24,7 +24,6 @@ const Header = () => {
             <Cart/>
           </Link>
         </div>
-
       </div>
     </div>
   )

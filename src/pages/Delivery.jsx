@@ -1,5 +1,5 @@
 import React from 'react';
-import {Banner, BannerStatistics} from "../components";
+import {Banner, BannerStatistics, Slider} from "../components";
 
 const Delivery = () => {
 
@@ -9,6 +9,7 @@ const Delivery = () => {
       <Banner>
         <BannerStatistics/>
       </Banner>
+      <Slider />
     </div>
   )
 }
