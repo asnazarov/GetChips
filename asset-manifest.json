@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/GetChips/static/css/main.2d28b010.chunk.css",
-    "main.js": "/GetChips/static/js/main.cff35321.chunk.js",
-    "main.js.map": "/GetChips/static/js/main.cff35321.chunk.js.map",
+    "main.js": "/GetChips/static/js/main.f8203a1f.chunk.js",
+    "main.js.map": "/GetChips/static/js/main.f8203a1f.chunk.js.map",
     "runtime-main.js": "/GetChips/static/js/runtime-main.9e5c4d65.js",
     "runtime-main.js.map": "/GetChips/static/js/runtime-main.9e5c4d65.js.map",
     "static/css/2.7eaa2099.chunk.css": "/GetChips/static/css/2.7eaa2099.chunk.css",
@@ -30,6 +30,6 @@
     "static/css/2.7eaa2099.chunk.css",
     "static/js/2.8aa6ca10.chunk.js",
     "static/css/main.2d28b010.chunk.css",
-    "static/js/main.cff35321.chunk.js"
+    "static/js/main.f8203a1f.chunk.js"
   ]
 }
