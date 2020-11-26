@@ -4,7 +4,7 @@ import '../logo.scss';
 const LogoIconHeader = () => {
   return (
 
-      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg className="logo__icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clipPath="url(#clip0)">
           <path d="M20 30.6327C20 31.5329 20.7304 32.2633 21.6306 32.2633C22.5308 32.2633 23.2611 31.5329 23.2611 30.6327V28H20.0034V30.6327H20Z" fill="#439B24"/>
           <path d="M20 1.63057V4.26327H23.2577V1.63057C23.2577 0.730362 22.5274 0 21.6272 0C20.727 0 20 0.730362 20 1.63057Z" fill="#439B24"/>

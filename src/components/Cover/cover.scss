@@ -1,6 +1,6 @@
 .cover {
   display: flex;
-  min-height: 400px;
+  min-height: 410px;
   border-bottom: 1px solid #ccc;
   overflow: hidden;
   position: relative;
@@ -12,6 +12,9 @@
     box-shadow: -60px 0px 25px 0px rgba(255, 255, 255, 0.85) inset;
     -webkit-box-shadow: -60px 0px 25px 0px rgba(255, 255, 255, 0.85) inset;
     -moz-box-shadow: -60px 0px 25px 0px rgba(255, 255, 255, 0.85) inset;
+    @media screen and (max-width: 770px) {
+      width: 20%;
+    }
   }
 
   &__item {
@@ -21,8 +24,8 @@
     padding: 10px 10px 20px 130px;
     max-width: 655px;
     width: 100%;
-    @media screen and (max-width: 1200px) {
-      padding: 10px 10px 20px 40px;
+    @media screen and (max-width: 770px) {
+      padding: 10px 20px 20px 100px;
     }
   }
 
@@ -34,16 +37,11 @@
     line-height: 28px;
     margin-bottom: 25px;
     margin-top: 90px;
-    @media screen and (max-width: 1200px) {
+
+    @media screen and (max-width: 580px) {
       font-size: 18px;
       line-height: 24px;
-      margin-top: 30px;
-    }
-    @media screen and (max-width: 1030px) {
-      margin-bottom: 10px;
-    }
-    @media screen and (max-width: 580px) {
-      margin-top: 10px;
+      margin-top: 40px;
     }
   }
 

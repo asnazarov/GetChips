@@ -10,11 +10,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    //flex-wrap: wrap;
     padding: 0 10px;
     margin: 0 auto;
     max-width: 1230px;
-    width: 100%;
+
+    @media screen and (max-width: 1220px) {
+      padding: 0 20px
+    }
+    @media screen and (max-width: 999px) {
+      width: 100%;
+    }
   }
 
   &__phone {
@@ -25,12 +31,8 @@
 
   &__item {
     display: flex;
-    margin: 0 0 0 auto;
-    max-width: 230px;
-    width: 100%;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: space-between;
-    flex: 1;
     padding: 10px 0 10px 35px;
   }
 }

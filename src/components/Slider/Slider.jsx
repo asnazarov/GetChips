@@ -64,8 +64,8 @@ const Slider = () => {
               delay: 1500,
               disableOnInteraction: false
             }}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
+            // onSlideChange={() => console.log('slide change')}
+            // onSwiper={(swiper) => console.log(swiper)}
           >
             <SwiperSlide className='swiper__slide'><img src={oneJpg} alt="slide 1"/></SwiperSlide>
             <SwiperSlide className='swiper__slide'><img src={twoJpg} alt="slide 2"/></SwiperSlide>
