@@ -1,5 +1,7 @@
-.search-btn{
+.search-btn {
   padding: 9px;
+  width: 44px;
+  height: 44px;
   background: #fff;
   outline: none;
   cursor: pointer;
@@ -7,6 +9,16 @@
   border-radius: 8px;
   margin-top: 10px;
   @media screen and (max-width: 1030px) {
-   width: 100%;
+    width: 100%;
   }
+
+  &:hover {
+    background-color: #28a745;
+    border-color: #28a745;
+
+    svg path {
+      fill: #ffffff;
+    }
+  }
+
 }

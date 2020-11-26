@@ -9,9 +9,9 @@
     background: url("../../assets/img/background/background1.jpg") no-repeat right;
     background-size: cover;
     width: 47%;
-    box-shadow: -33px 0px 25px 11px rgba(255, 255, 255, 0.85) inset;
-    -webkit-box-shadow: -33px 0px 25px 11px rgba(255, 255, 255, 0.85) inset;
-    -moz-box-shadow: -33px 0px 25px 11px rgba(255, 255, 255, 0.85) inset;
+    box-shadow: -60px 0px 25px 0px rgba(255, 255, 255, 0.85) inset;
+    -webkit-box-shadow: -60px 0px 25px 0px rgba(255, 255, 255, 0.85) inset;
+    -moz-box-shadow: -60px 0px 25px 0px rgba(255, 255, 255, 0.85) inset;
   }
 
   &__item {
@@ -56,6 +56,11 @@
     color: #439B24;
     border-bottom: 1px solid #439B24;
     margin-top: 20px;
+
+    &:hover {
+      color: #19692c;
+      cursor: pointer;
+    }
   }
 }
 

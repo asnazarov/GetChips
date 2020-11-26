@@ -39,22 +39,22 @@ const Slider = () => {
             spaceBetween={30}
             slidesPerView={5}
             breakpoints={{
-              // when window width is >= 320px
+              // when window width is >= 270px
               270: {
                 slidesPerView: 1,
                 spaceBetween: 20
               },
-              // when window width is >= 320px
+              // when window width is >= 470px
               470: {
               slidesPerView: 2,
               spaceBetween: 20
             },
-              // when window width is >= 480px
+              // when window width is >= 700px
               700: {
               slidesPerView: 3,
               spaceBetween: 30
             },
-              // when window width is >= 640px
+              // when window width is >= 1130px
               1130: {
               slidesPerView: 5,
               spaceBetween: 40
@@ -67,7 +67,6 @@ const Slider = () => {
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
           >
-
             <SwiperSlide className='swiper__slide'><img src={oneJpg} alt="slide 1"/></SwiperSlide>
             <SwiperSlide className='swiper__slide'><img src={twoJpg} alt="slide 2"/></SwiperSlide>
             <SwiperSlide className='swiper__slide'><img src={threeJpg} alt=""/></SwiperSlide>

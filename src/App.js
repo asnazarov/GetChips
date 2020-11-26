@@ -12,9 +12,9 @@ function App() {
         <div className="content">
           <Route exact path="/GetChips" component={Home}/>
           <Route path="/about" component={About}/>
-          <Route path="/suppliers" component={Suppliers}/>
+          <Route path="/vendor" component={Suppliers}/>
           <Route path="/delivery" component={Delivery}/>
-          <Route path="/workingConditions" component={WorkingConditions}/>
+          <Route path="/uslovija-raboty" component={WorkingConditions}/>
           <Route path="/contacts" component={Contacts}/>
           <Route path="/api" component={Api}/>
           <Route path="/personalAccount" component={PersonalAccount}/>

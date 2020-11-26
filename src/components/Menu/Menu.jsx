@@ -12,7 +12,7 @@ const Menu = () => {
           </NavLink>
         </li>
         <li className="menu__list-item">
-          <NavLink to="/suppliers" className="menu__link" activeClassName="menu__link_active">
+          <NavLink to="/vendor" className="menu__link" activeClassName="menu__link_active">
             <p className="menu__text">Поставщики</p>
           </NavLink>
         </li>
@@ -22,7 +22,7 @@ const Menu = () => {
           </NavLink>
         </li>
         <li className="menu__list-item">
-          <NavLink to="/workingConditions" className="menu__link" activeClassName="menu__link_active">
+          <NavLink to="/uslovija-raboty" className="menu__link" activeClassName="menu__link_active">
             <p className="menu__text">Условия работы</p>
           </NavLink>
         </li>

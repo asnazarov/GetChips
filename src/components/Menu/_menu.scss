@@ -2,13 +2,10 @@
   display: flex;
   padding: 10px 0;
   margin-left: 15px;
-flex-wrap: wrap;
+  flex-wrap: wrap;
+
   &__list-item {
     margin-left: 35px;
-
-    //&:first-child {
-    //  margin-left: 0;
-    //}
   }
 
   &__text {
@@ -19,6 +16,10 @@ flex-wrap: wrap;
     line-height: 20px;
     white-space: nowrap;
     color: #969696;
+
+    &:hover {
+      color: #cccccc;
+    }
   }
 
   &__link {

@@ -5,6 +5,7 @@ const Home = () => {
 
   return (
     <div className="container">
+      <h2>Home</h2>
       <Cover/>
       <Banner>
         <BannerServices/>

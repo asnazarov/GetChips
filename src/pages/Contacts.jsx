@@ -10,7 +10,7 @@ const Contacts = () => {
         <BannerStatistics/>
       </Banner>
       <FeedbackForm titleText="Обратная связь" />
-      <Slider />
+      {/*<Slider />*/}
     </div>
   )
 }

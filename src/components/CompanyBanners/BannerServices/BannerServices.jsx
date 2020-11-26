@@ -7,6 +7,7 @@ const BannerServices = () => {
 
   return (
     <div className="bannerServices">
+
       <div className="bannerServices__item">
         <img src={searcherSvg} alt="Поисковик"/>
         <p className="bannerServices__text">Одновременный поиск <br/> по 100 позициям</p>
@@ -15,6 +16,7 @@ const BannerServices = () => {
         <img src={transportSvg} alt="Транспорт"/>
         <p className="bannerServices__text">Мы удовлетворяем потребности <br/> оптовой и розничной закупки</p>
       </div>
+
       <div className="bannerServices__item">
         <img src={comparisonSvg} alt="Сравнение"/>
         <p className="bannerServices__text">Сравнение цен <br/> с мировых складов</p>
@@ -23,6 +25,7 @@ const BannerServices = () => {
         <img src={deliverySvg} alt="Доставка"/>
         <p className="bannerServices__text">Онлайн отслеживание <br/> движения груза</p>
       </div>
+
       <div className="bannerServices__item">
         <img src={filesSvg} alt="Отчетность"/>
         <p className="bannerServices__text">Счета формируются автоматически <br/> и выставляются в рублях с НДС</p>
@@ -31,6 +34,7 @@ const BannerServices = () => {
         <img src={loaderSvg} alt="Отгрузка"/>
         <p className="bannerServices__text">Ежедневная отгрузка <br/> более 6000 линий в месяц</p>
       </div>
+
     </div>
   )
 }
