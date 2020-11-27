@@ -10,7 +10,9 @@ const Cover = () => {
       <div className="cover__background"/>
       <div className="cover__item">
         <h2 className="cover__title">Getchips - автоматизированная система поиска и закупки электронных компонентов</h2>
-        <SearchForm />
+        <SearchForm
+          searchMain
+        />
         <p className="cover__link">Загрузить список компонетов</p>
       </div>
     </section>

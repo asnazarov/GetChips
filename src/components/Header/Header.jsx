@@ -18,8 +18,6 @@ const Header = () => {
     return () => window.removeEventListener('resize', updateView);
   }, []);
 
-  console.log(coverPlace1220)
-
   return (
     <div className="header">
       <div className="header__container">

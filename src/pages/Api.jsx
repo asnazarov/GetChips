@@ -1,11 +1,12 @@
 import React from 'react';
-import {Banner, BannerStatistics, Slider} from "../components";
+import {Banner, BannerStatistics, SearchForm, Slider} from "../components";
 
 const Api = () => {
 
   return (
     <div className="container">
-      <h2>API</h2>
+      {/*<h2>API</h2>*/}
+      <SearchForm />
       <Banner>
         <BannerStatistics/>
       </Banner>
