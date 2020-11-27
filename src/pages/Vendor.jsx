@@ -1,12 +1,16 @@
 import React from 'react';
 import {Banner, BannerStatistics, SearchForm} from "../components";
+import {Info, InfoVendor} from "../components/Info";
 
-const Suppliers = () => {
+const Vendor = () => {
 
   return (
     <div className="container container--cart">
       {/*<h2>Поставщики</h2>*/}
       <SearchForm />
+      <Info>
+        <InfoVendor />
+      </Info>
       <Banner>
         <BannerStatistics/>
       </Banner>
@@ -14,4 +18,4 @@ const Suppliers = () => {
   )
 }
 
-export default Suppliers
+export default Vendor

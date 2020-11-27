@@ -1,4 +1,3 @@
-import AboutSection from "./AboutItem/AboutSection";
 import BannerServices from "./CompanyBanners/BannerServices/BannerServices";
 import BannerStatistics from "./CompanyBanners/BannerStatistics/BannerStatistics";
 import Cover from "./Cover/Cover";
@@ -11,7 +10,6 @@ import Slider from "./Slider/Slider";
 import Footer from "./Footer/Footer";
 
 export {
-  AboutSection,
   BannerServices,
   BannerStatistics,
   Cover,

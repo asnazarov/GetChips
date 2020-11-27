@@ -1,4 +1,4 @@
-.about {
+.info {
   border-top: 1px solid #ccc;
 
   &__wrapper {
@@ -6,7 +6,7 @@
     justify-content: space-between;
     max-width: 1230px;
     margin: 0 auto;
-    padding: 10px 16px 0 16px;
+    padding: 27px 10px 0px 10px;
   }
 
   &__item {
@@ -14,12 +14,12 @@
   }
 
   &__background {
-    background: url("../../assets/img/background/backgroundAbout.jpg") no-repeat right;
-    background-size: cover;
-    min-height: 470px;
+    border: 1px solid green;
+    object-position: right;
+    object-fit: contain;
+    min-height: 400px;
     max-width: 562px;
     width: 47%;
-    margin: 60px 0 0 10px;
   }
 
   &__item {
@@ -27,7 +27,7 @@
   }
 
   &__title {
-    margin: 30px 0 15px 0;
+    margin: 15px 0 15px 0;
     font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
     color: #333333;
     font-style: normal;
@@ -43,7 +43,20 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    margin-top: 25px;
+    margin-bottom: 24px;
     max-width: 600px;
+  }
+
+  &__link {
+    font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #439B24;
+
+    &:hover {
+      border-bottom: 1px solid #439B24;
+    }
   }
 }
