@@ -1,0 +1,53 @@
+.conditions {
+  border-top: 1px solid #cccccc;
+
+  &__wrapper {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 28px 10px 24px 10px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 660px;
+    max-height: 145px;
+    flex-wrap: wrap;
+  }
+
+  &__title {
+    font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    margin-top: 7px;
+  }
+
+  &__text {
+    font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    border-bottom: 1px solid transparent;
+    margin-bottom: 22.9px;
+
+    &_subtitle {
+      margin-bottom: 0;
+    }
+
+    &_theme_green {
+      color: #439B24;
+      margin-bottom: 4px;
+      line-height: 20px;
+
+      &:hover {
+        border-bottom: 1px solid #439B24;
+      }
+    }
+  }
+}

@@ -11,6 +11,7 @@
 
   &__item {
     max-width: 600px;
+    width: 100%;
   }
 
   &__background {
@@ -40,9 +41,6 @@
     display: flex;
   }
 
-  &__item {
-
-  }
 
   &__title {
     margin: 15px 0 15px 0;
@@ -81,10 +79,19 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #439B24;
 
     &:hover {
-      border-bottom: 1px solid #439B24;
+      border-bottom: 1px solid #333333;
     }
+
+    &_theme_green {
+      color: #439B24;
+
+      &:hover {
+        border-bottom: 1px solid #439B24;
+      }
+    }
+
+
   }
 }

@@ -5,7 +5,7 @@ import backgroundAboutJpg from '../../assets/img/background/backgroundAbout.jpg'
 const InfoAbout = () => {
   return (
     <>
-      <div className="info__wrapper">
+      <article className="info__wrapper">
         <img className="info__background" src={backgroundAboutJpg} alt="О нас"/>
         <div className="info__item">
           <h2 className="info__title">О нас</h2>
@@ -28,9 +28,9 @@ const InfoAbout = () => {
             поддержке со стороны технических специалистов Arrow Electronics и Digi-key Electronics).
           </p>
         </div>
-      </div>
+      </article>
       <hr align="center" width="auto" size="1" color="#cccccc"/>
-      <div className="info__wrapper">
+      <article className="info__wrapper">
         <p className="info__text">ООО «ГетЧипс» входит в состав компаний Арвис Групп. Арвис Групп основана в 2008 году
           в Екатеринбурге и работает в 3 офисах в России: Екатеринбург, Москва, Санкт-Петербург, представительстве в
           Гонконге и Шенчжене (КНР). Компания развивалась по модели логистической дистрибьюции и является надежным
@@ -43,7 +43,7 @@ const InfoAbout = () => {
           оформление и реализуют на территории России более 6000 наименований электронных компонентов. Количество
           клиентов по результатам 2019 года превысило 800 предприятий и компаний по территории РФ.
         </p>
-      </div>
+      </article>
     </>
   )
 }

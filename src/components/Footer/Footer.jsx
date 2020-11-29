@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
+      <hr align="center" width="auto" size="1" color="#cccccc"/>
     </div>
   )
 }

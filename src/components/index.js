@@ -1,5 +1,6 @@
 import BannerServices from "./CompanyBanners/BannerServices/BannerServices";
 import BannerStatistics from "./CompanyBanners/BannerStatistics/BannerStatistics";
+import Conditions from "./Сonditions/Conditions";
 import Cover from "./Cover/Cover";
 import Header from "./Header/Header";
 import Menu from "./Menu/Menu";
@@ -47,6 +48,7 @@ export {
 export {
   BannerServices,
   BannerStatistics,
+  Conditions,
   Cover,
   Header,
   Menu,

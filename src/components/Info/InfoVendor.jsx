@@ -48,7 +48,7 @@ const InfoVendor = () => {
           Общая численность сотрудников около 100 человек. Оборот группы по результатам 2019 года превысил 25 миллионов
           долларов США.<br/>
         </p>
-        <a className="info__link" href="http://arvisgroup.ru/">http://arvisgroup.ru/</a>
+        <a className="info__link info__link_theme_green" href="http://arvisgroup.ru/">http://arvisgroup.ru/</a>
       </div>
     </div>
   )
