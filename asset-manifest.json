@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/GetChips/static/css/main.f237d65e.chunk.css",
-    "main.js": "/GetChips/static/js/main.a5c9f1b5.chunk.js",
-    "main.js.map": "/GetChips/static/js/main.a5c9f1b5.chunk.js.map",
+    "main.css": "/GetChips/static/css/main.be75f952.chunk.css",
+    "main.js": "/GetChips/static/js/main.440fc337.chunk.js",
+    "main.js.map": "/GetChips/static/js/main.440fc337.chunk.js.map",
     "runtime-main.js": "/GetChips/static/js/runtime-main.9e5c4d65.js",
     "runtime-main.js.map": "/GetChips/static/js/runtime-main.9e5c4d65.js.map",
     "static/css/2.7eaa2099.chunk.css": "/GetChips/static/css/2.7eaa2099.chunk.css",
-    "static/js/2.a255f165.chunk.js": "/GetChips/static/js/2.a255f165.chunk.js",
-    "static/js/2.a255f165.chunk.js.map": "/GetChips/static/js/2.a255f165.chunk.js.map",
+    "static/js/2.621bc95c.chunk.js": "/GetChips/static/js/2.621bc95c.chunk.js",
+    "static/js/2.621bc95c.chunk.js.map": "/GetChips/static/js/2.621bc95c.chunk.js.map",
     "index.html": "/GetChips/index.html",
     "static/css/2.7eaa2099.chunk.css.map": "/GetChips/static/css/2.7eaa2099.chunk.css.map",
-    "static/css/main.f237d65e.chunk.css.map": "/GetChips/static/css/main.f237d65e.chunk.css.map",
-    "static/js/2.a255f165.chunk.js.LICENSE.txt": "/GetChips/static/js/2.a255f165.chunk.js.LICENSE.txt",
+    "static/css/main.be75f952.chunk.css.map": "/GetChips/static/css/main.be75f952.chunk.css.map",
+    "static/js/2.621bc95c.chunk.js.LICENSE.txt": "/GetChips/static/js/2.621bc95c.chunk.js.LICENSE.txt",
     "static/media/11.53e50977.jpg": "/GetChips/static/media/11.53e50977.jpg",
     "static/media/14.3b511224.jpg": "/GetChips/static/media/14.3b511224.jpg",
     "static/media/15.5e400722.jpg": "/GetChips/static/media/15.5e400722.jpg",
@@ -20,6 +20,7 @@
     "static/media/feedbackForm.scss": "/GetChips/static/media/background2.715fb88e.png",
     "static/media/backgroundAbout.a219c3bf.jpg": "/GetChips/static/media/backgroundAbout.a219c3bf.jpg",
     "static/media/backgroundApi.ef49febf.svg": "/GetChips/static/media/backgroundApi.ef49febf.svg",
+    "static/media/backgroundContacts.063dc077.svg": "/GetChips/static/media/backgroundContacts.063dc077.svg",
     "static/media/backgroundDelivery.0819d081.jpg": "/GetChips/static/media/backgroundDelivery.0819d081.jpg",
     "static/media/comparison.1311746a.svg": "/GetChips/static/media/comparison.1311746a.svg",
     "static/media/delivery.13637e34.svg": "/GetChips/static/media/delivery.13637e34.svg",
@@ -31,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.9e5c4d65.js",
     "static/css/2.7eaa2099.chunk.css",
-    "static/js/2.a255f165.chunk.js",
-    "static/css/main.f237d65e.chunk.css",
-    "static/js/main.a5c9f1b5.chunk.js"
+    "static/js/2.621bc95c.chunk.js",
+    "static/css/main.be75f952.chunk.css",
+    "static/js/main.440fc337.chunk.js"
   ]
 }
