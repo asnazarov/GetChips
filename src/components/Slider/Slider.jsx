@@ -17,7 +17,7 @@ import {
   tenJpg, thirteenJpg,
   threeJpg, twelveJpg,
   twoJpg
-} from "./index";
+} from "../index";
 import {SwiperButtonNext, SwiperButtonPrev} from "../Buttons";
 
 SwiperCore.use([Navigation, Scrollbar, A11y, Autoplay]);
@@ -69,19 +69,19 @@ const Slider = () => {
           >
             <SwiperSlide className='swiper__slide'><img src={oneJpg} alt="slide 1"/></SwiperSlide>
             <SwiperSlide className='swiper__slide'><img src={twoJpg} alt="slide 2"/></SwiperSlide>
-            <SwiperSlide className='swiper__slide'><img src={threeJpg} alt=""/></SwiperSlide>
-            <SwiperSlide className='swiper__slide'><img src={fourJpg} alt=""/></SwiperSlide>
-            <SwiperSlide className='swiper__slide'><img src={fiveJpg} alt=""/></SwiperSlide>
-            <SwiperSlide className='swiper__slide'><img src={sixJpg} alt=""/></SwiperSlide>
-            <SwiperSlide className='swiper__slide'><img src={sevenJpg} alt=""/></SwiperSlide>
-            <SwiperSlide className='swiper__slide'><img src={eightJpg} alt=""/></SwiperSlide>
-            <SwiperSlide className='swiper__slide'><img src={nineJpg} alt=""/></SwiperSlide>
-            <SwiperSlide className='swiper__slide'><img src={tenJpg} alt=""/></SwiperSlide>
-            <SwiperSlide className='swiper__slide'><img src={elevenJpg} alt=""/></SwiperSlide>
-            <SwiperSlide className='swiper__slide'><img src={twelveJpg} alt=""/></SwiperSlide>
-            <SwiperSlide className='swiper__slide'><img src={thirteenJpg} alt=""/></SwiperSlide>
-            <SwiperSlide className='swiper__slide'><img src={fourTeenJpg} alt=""/></SwiperSlide>
-            <SwiperSlide className='swiper__slide'><img src={fifteenJpg} alt=""/></SwiperSlide>
+            <SwiperSlide className='swiper__slide'><img src={threeJpg} alt="slide 3"/></SwiperSlide>
+            <SwiperSlide className='swiper__slide'><img src={fourJpg} alt="slide 4"/></SwiperSlide>
+            <SwiperSlide className='swiper__slide'><img src={fiveJpg} alt="slide 5"/></SwiperSlide>
+            <SwiperSlide className='swiper__slide'><img src={sixJpg} alt="slide 6"/></SwiperSlide>
+            <SwiperSlide className='swiper__slide'><img src={sevenJpg} alt="slide 7"/></SwiperSlide>
+            <SwiperSlide className='swiper__slide'><img src={eightJpg} alt="slide 8"/></SwiperSlide>
+            <SwiperSlide className='swiper__slide'><img src={nineJpg} alt="slide 9"/></SwiperSlide>
+            <SwiperSlide className='swiper__slide'><img src={tenJpg} alt="slide 10"/></SwiperSlide>
+            <SwiperSlide className='swiper__slide'><img src={elevenJpg} alt="slide 11"/></SwiperSlide>
+            <SwiperSlide className='swiper__slide'><img src={twelveJpg} alt="slide 12"/></SwiperSlide>
+            <SwiperSlide className='swiper__slide'><img src={thirteenJpg} alt="slide 13"/></SwiperSlide>
+            <SwiperSlide className='swiper__slide'><img src={fourTeenJpg} alt="slide 14"/></SwiperSlide>
+            <SwiperSlide className='swiper__slide'><img src={fifteenJpg} alt="slide 15"/></SwiperSlide>
           </Swiper>
           <SwiperButtonNext />
         </div>

@@ -1,11 +1,40 @@
 import React from 'react';
 import './info.scss';
+import {
+  eightJpg,
+  elevenJpg, fifteenJpg,
+  fiveJpg,
+  fourJpg, fourTeenJpg,
+  nineJpg,
+  oneJpg,
+  sevenJpg,
+  sixJpg,
+  tenJpg, thirteenJpg,
+  threeJpg, twelveJpg,
+  twoJpg
+} from "../index";
 
 const InfoVendor = () => {
 
   return (
     <div className="info__wrapper">
-      <div className="info__background"/>
+      <div className="info__background info__background_grid">
+        <img className="info__company-logo" src={oneJpg} alt="slide 1"/>
+        <img className="info__company-logo" src={twoJpg} alt="slide 2"/>
+        <img className="info__company-logo" src={threeJpg} alt=""/>
+        <img className="info__company-logo" src={fourJpg} alt=""/>
+        <img className="info__company-logo" src={fiveJpg} alt=""/>
+        <img className="info__company-logo" src={sixJpg} alt=""/>
+        <img className="info__company-logo" src={sevenJpg} alt=""/>
+        <img className="info__company-logo" src={eightJpg} alt=""/>
+        <img className="info__company-logo" src={nineJpg} alt=""/>
+        <img className="info__company-logo" src={tenJpg} alt=""/>
+        <img className="info__company-logo" src={elevenJpg} alt=""/>
+        <img className="info__company-logo" src={twelveJpg} alt=""/>
+        <img className="info__company-logo" src={thirteenJpg} alt=""/>
+        <img className="info__company-logo" src={fourTeenJpg} alt=""/>
+        <img className="info__company-logo" src={fifteenJpg} alt=""/>
+      </div>
       <div className="info__item">
         <h2 className="info__title">Поставщики</h2>
         <p className="info__text">
