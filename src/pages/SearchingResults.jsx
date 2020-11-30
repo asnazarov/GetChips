@@ -6,12 +6,12 @@ const SearchingResults = () => {
   return (
     <div className="container">
       <ResultsBlock>
-        <div className="results-header">
+        <div className="res-header">
           <SearchingResultHeader/>
         </div>
-        <div className="result-container">
+        <table className="res-cont">
           <SearchingResultContainer/>
-        </div>
+        </table>
       </ResultsBlock>
     </div>
 

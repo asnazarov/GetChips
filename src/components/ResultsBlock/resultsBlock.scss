@@ -1,18 +1,15 @@
 .results {
   border: 1px solid black;
-  max-width: 1230px;
+  max-width: 1200px;
   margin: 0 auto;
-  //min-height: 400px;
 }
 
-.results-header {
-  border: 1px solid black;
+.res-header {
   display: flex;
   position: relative;
   justify-content: space-between;
   align-items: center;
-  min-height: 70px;
-  padding: 0 10px;
+  min-height: 56px;
 
   &__title {
     font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
@@ -24,9 +21,33 @@
   }
 }
 
-.result-container {
-  padding: 0 10px;
-  min-height:200px;
-  border: 3px solid #dba0a0;
+.res-cont {
+  border: 1px solid green;
+  border-collapse: collapse;
   border-radius: 4px;
+  width: 100%;
+  min-height: 45px;
+
+  &__list {
+    &:hover {
+      background: rgba(67, 155, 36, 0.1);
+    }
+  }
+
+  &__item-list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    height: 45px;
+    text-align: center;
+    padding: 8px 0;
+    cursor: pointer;
+
+    &_head {
+      background-color: #EBEBEB;
+      cursor: context-menu;
+
+    }
+  }
 }

@@ -6,7 +6,7 @@ const SearchingResultHeader = () => {
 
   return (
     <>
-      <h2 className="results-header__title">Результаты поиска</h2>
+      <h2 className="res-header__title">Результаты поиска</h2>
       <SortPopup/>
     </>
   )

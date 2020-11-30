@@ -47,7 +47,7 @@ const SearchForm = ({searchMain}) => {
           )
         }
       </div>
-      <NavLink to="/results" target="_blank">
+      <NavLink to="/results">
         <SearchBtn searchMain={searchMain}/>
       </NavLink>
       {
