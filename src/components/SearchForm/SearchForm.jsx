@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import './searchForm.scss';
 import {Download, SearchBtn} from "../Buttons";
+import {NavLink} from "react-router-dom";
 
 const SearchForm = ({searchMain}) => {
   console.log(searchMain)
@@ -46,7 +47,9 @@ const SearchForm = ({searchMain}) => {
           )
         }
       </div>
-      <SearchBtn searchMain={searchMain}/>
+      <NavLink to="/results" target="_blank">
+        <SearchBtn searchMain={searchMain}/>
+      </NavLink>
       {
         !searchMain && <Download/>
       }

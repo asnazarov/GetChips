@@ -2,7 +2,18 @@ import React from 'react';
 import {Route} from "react-router-dom";
 
 import {Footer, Header} from './components'
-import {About, Api, Contacts, Delivery, Home, PersonalAccount, Vendor, WorkingConditions, Cart} from './pages'
+import {
+  About,
+  Api,
+  Contacts,
+  Delivery,
+  Home,
+  PersonalAccount,
+  Vendor,
+  WorkingConditions,
+  Cart,
+  SearchingResults
+} from './pages'
 
 function App() {
 
@@ -19,6 +30,7 @@ function App() {
           <Route path="/api" component={Api}/>
           <Route path="/personalAccount" component={PersonalAccount}/>
           <Route path="/cart" component={Cart}/>
+          <Route path="/results" component={SearchingResults}/>
         </div>
       <Footer />
     </>

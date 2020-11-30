@@ -7,5 +7,6 @@ import Contacts from "./Contacts";
 import Api from "./Api";
 import PersonalAccount from "./PersonalAccount";
 import Cart from "./Cart";
+import SearchingResults from "./SearchingResults";
 
-export {Home, About, Vendor, Delivery, WorkingConditions, Contacts, Api, PersonalAccount, Cart}
+export {Home, About, Vendor, Delivery, WorkingConditions, Contacts, Api, PersonalAccount, Cart, SearchingResults}
