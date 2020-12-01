@@ -1,5 +1,4 @@
 .results {
-  border: 1px solid black;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -22,7 +21,7 @@
 }
 
 .res-cont {
-  border: 1px solid green;
+  border: 1px solid #EBEBEB;
   border-collapse: collapse;
   border-radius: 4px;
   width: 100%;
@@ -31,10 +30,14 @@
   &__list {
     &:hover {
       background: rgba(67, 155, 36, 0.1);
+      .res-cont__sum {
+        color: #439B24;
+      }
     }
   }
 
   &__item-list {
+    font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -43,11 +46,25 @@
     text-align: center;
     padding: 8px 0;
     cursor: pointer;
+    color: #333333;
 
     &_head {
       background-color: #EBEBEB;
       cursor: context-menu;
 
     }
+  }
+
+  &__sum {
+    display: block;
+    margin-top: 4px;
+    margin-left: 26px;
+    text-align: left;
+    font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
   }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
-import './personalAcc.scss';
+import './personalAccBtn.scss';
 
-const PersonalAcc = ({coverPlace1220}) => {
+const PersonalAccBtn = ({coverPlace1220}) => {
   return (
     <>
       <svg width="20" height="20" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -16,4 +16,4 @@ const PersonalAcc = ({coverPlace1220}) => {
   )
 }
 
-export default PersonalAcc;
+export default PersonalAccBtn;

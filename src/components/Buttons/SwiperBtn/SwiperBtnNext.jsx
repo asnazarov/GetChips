@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SwiperButtonNext = () => {
+const SwiperBtnNext = () => {
 
   return (
     <div className="swiper-button-next">
@@ -13,4 +13,4 @@ const SwiperButtonNext = () => {
 
   )
 }
-export default SwiperButtonNext;
+export default SwiperBtnNext;

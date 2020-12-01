@@ -1,0 +1,29 @@
+.quantity {
+  height: 28px;
+  margin: 0 auto;
+  max-width: 110px;
+  display: flex;
+
+  &__input {
+    display: block;
+    height: 28px;
+    width: 80px;
+    padding-left: 8px;
+    border: 1px solid #969696;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+  }
+
+  &__btn {
+    display: block;
+    background-color: #439B24;
+    height: 28px;
+    width: 28px;
+    outline: none;
+    border: none;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+
+
+}

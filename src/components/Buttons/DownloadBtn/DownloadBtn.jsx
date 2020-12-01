@@ -1,7 +1,7 @@
 import React from 'react';
-import './download.scss';
+import './downloadBtn.scss';
 
-const Download = () => {
+const DownloadBtn = () => {
 
   const search = (e) => {
     e.preventDefault()
@@ -23,4 +23,4 @@ const Download = () => {
   )
 }
 
-export default Download;
+export default DownloadBtn;

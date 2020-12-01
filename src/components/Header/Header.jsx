@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {Link} from "react-router-dom";
-import {Cart, LogoHeader, MenuBurger, PersonalAcc, Phone} from "../Buttons";
+import {CartBtn, LogoHeader, MenuBurgerBtn, PersonalAccBtn, PhoneBtn} from "../Buttons";
 import './_header.scss';
 import {Menu} from "../index";
 
@@ -25,7 +25,7 @@ const Header = () => {
           <LogoHeader/>
         </Link>
         <div className="header__phone">
-          <Phone/>
+          <PhoneBtn/>
         </div>
         {
           coverPlace999 && <Menu/>
@@ -33,13 +33,13 @@ const Header = () => {
 
         <div className="header__item">
           <Link className="personalAcc" to="/personalAccount">
-            <PersonalAcc coverPlace1220={coverPlace1220}/>
+            <PersonalAccBtn coverPlace1220={coverPlace1220}/>
           </Link>
           <Link className="cart" to="/cart">
-            <Cart/>
+            <CartBtn hex="#969696"/>
           </Link>
           {
-            !coverPlace999 && <MenuBurger/>
+            !coverPlace999 && <MenuBurgerBtn/>
           }
         </div>
 

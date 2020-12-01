@@ -1,7 +1,7 @@
 import React from 'react';
-import './phone.scss';
+import './phoneBtn.scss';
 
-const Phone = () => {
+const PhoneBtn = () => {
   return (
     <a className="phone" href="tel:+78007001863">
       <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -15,4 +15,4 @@ const Phone = () => {
   )
 }
 
-export default Phone;
+export default PhoneBtn;

@@ -18,7 +18,7 @@ import {
   threeJpg, twelveJpg,
   twoJpg
 } from "../index";
-import {SwiperButtonNext, SwiperButtonPrev} from "../Buttons";
+import {SwiperBtnNext, SwiperBtnPrev} from "../Buttons";
 
 SwiperCore.use([Navigation, Scrollbar, A11y, Autoplay]);
 const Slider = () => {
@@ -29,7 +29,7 @@ const Slider = () => {
         <h2 className='slider__title'>Мы не скрываем своих партнёров - мы гордимся ими. Наши партнёры - это глобальные и
           локальные дистрибьюторы с многолетним опытом и хорошей репутацией.</h2>
         <div className="swiper">
-          <SwiperButtonPrev/>
+          <SwiperBtnPrev/>
           <Swiper
             className="swiper__wrapper"
             navigation={{
@@ -83,7 +83,7 @@ const Slider = () => {
             <SwiperSlide className='swiper__slide'><img src={fourTeenJpg} alt="slide 14"/></SwiperSlide>
             <SwiperSlide className='swiper__slide'><img src={fifteenJpg} alt="slide 15"/></SwiperSlide>
           </Swiper>
-          <SwiperButtonNext />
+          <SwiperBtnNext />
         </div>
 
       </div>

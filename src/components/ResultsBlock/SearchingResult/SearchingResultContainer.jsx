@@ -1,10 +1,11 @@
 import React from 'react';
 import '../resultsBlock.scss';
+import {QuantityBtn} from "../../Buttons";
 
 const SearchingResultContainer = () => {
 
   return (
-    <>
+    <tbody>
       <tr>
         <th className="res-cont__item-list res-cont__item-list_head">Поставщик</th>
         <th className="res-cont__item-list res-cont__item-list_head">Наименование</th>
@@ -47,8 +48,8 @@ const SearchingResultContainer = () => {
         </td>
         <td className="res-cont__item-list">12 раб. дней</td>
         <td className="res-cont__item-list">
-          <input />
-          {/*22 208 RUB*/}
+          <QuantityBtn />
+          <p className="res-cont__sum">22 208 RUB</p>
         </td>
       </tr>
       <tr className="res-cont__list">
@@ -79,8 +80,8 @@ const SearchingResultContainer = () => {
         </td>
         <td className="res-cont__item-list">12 раб. дней</td>
         <td className="res-cont__item-list">
-          <input />
-          {/*22 208 RUB*/}
+          <QuantityBtn />
+          <p className="res-cont__sum">22 208 RUB</p>
         </td>
       </tr>
       <tr className="res-cont__list">
@@ -110,12 +111,12 @@ const SearchingResultContainer = () => {
           </ul>
         </td>
         <td className="res-cont__item-list">12 раб. дней</td>
-        <td className="res-cont__item-list">
-          <input />
-          {/*22 208 RUB*/}
+        <td className="res-cont__item-list ">
+          <QuantityBtn />
+          <p className="res-cont__sum">22 208 RUB</p>
         </td>
       </tr>
-    </>
+    </tbody>
 
 
   )

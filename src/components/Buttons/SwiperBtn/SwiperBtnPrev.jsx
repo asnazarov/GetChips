@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SwiperButtonPrev = () => {
+const SwiperBtnPrev = () => {
 
   return (
     <div className="swiper-button-prev">
@@ -15,4 +15,4 @@ const SwiperButtonPrev = () => {
   )
 }
 
-export default SwiperButtonPrev;
+export default SwiperBtnPrev;

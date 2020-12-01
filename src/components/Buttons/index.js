@@ -1,25 +1,27 @@
-import Cart from "./Cart/Cart";
-import Download from "./Download/Download";
+import CartBtn from "./CartBtn/CartBtn";
+import DownloadBtn from "./DownloadBtn/DownloadBtn";
 import KeyboardArrow from "./KeyboardArrow/KeyboardArrow";
 import LogoHeader from "./Logo/LogoHeader/LogoHeader";
 import LogoFooter from "./Logo/LogoFooter/LogoFooter";
-import MenuBurger from "./MenuBurger/MenuBurger";
-import PersonalAcc from "./PersonalAcc/PersonalAcc";
-import Phone from "./Phone/Phone";
+import MenuBurgerBtn from "./MenuBurgerBtn/MenuBurgerBtn";
+import PersonalAccBtn from "./PersonalAccBtn/PersonalAccBtn";
+import PhoneBtn from "./PhoneBtn/PhoneBtn";
 import SearchBtn from "./SearchBtn/SearchBtn";
-import SwiperButtonPrev from "./SwiperButtons/SwiperButtonPrev";
-import SwiperButtonNext from "./SwiperButtons/SwiperButtonNext";
+import SwiperBtnPrev from "./SwiperBtn/SwiperBtnPrev";
+import SwiperBtnNext from "./SwiperBtn/SwiperBtnNext";
+import QuantityBtn from "./QuantityBtn/QuantityBtn";
 
 export {
-  Cart,
-  Download,
+  CartBtn,
+  DownloadBtn,
   KeyboardArrow,
   LogoHeader,
   LogoFooter,
-  MenuBurger,
-  PersonalAcc,
-  Phone,
+  MenuBurgerBtn,
+  PersonalAccBtn,
+  PhoneBtn,
   SearchBtn,
-  SwiperButtonPrev,
-  SwiperButtonNext,
+  SwiperBtnPrev,
+  SwiperBtnNext,
+  QuantityBtn,
 }
