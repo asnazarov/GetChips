@@ -1,5 +1,6 @@
 import React from 'react';
 import '../resultsBlock.scss';
+import {Delete} from "../../Buttons";
 
 const CartResultContainer = () => {
 return (
@@ -28,7 +29,9 @@ return (
     <td className="res-cont__item-list">75,1784</td>
     <td className="res-cont__item-list">37 529,1840</td>
     <td className="res-cont__item-list">2-3 нед.</td>
-    <td className="res-cont__item-list">удалить</td>
+    <td className="res-cont__item-list">
+      <Delete hex="#333333"/>
+    </td>
 
   </tr>
   </tbody>

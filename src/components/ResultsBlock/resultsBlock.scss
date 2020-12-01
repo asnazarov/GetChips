@@ -10,6 +10,12 @@
   align-items: center;
   min-height: 56px;
 
+  &__wrapper {
+    //border: 1px solid red;
+    display: flex;
+    align-items: center;
+  }
+
   &__title {
     font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
     font-style: normal;
@@ -17,6 +23,27 @@
     font-size: 18px;
     line-height: 20px;
     color: #333333;
+    margin-right: 8px;
+  }
+
+  &__orderBtn {
+    display: flex;
+    font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #439B24;
+    height: 32px;
+    color: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    padding: 0 16px;
+    &:hover {
+      box-shadow: 0 6px 6px rgba(0, 0, 0, 0.15);
+        cursor: pointer;
+    }
   }
 }
 .res {
@@ -49,7 +76,6 @@
     height: 45px;
     text-align: center;
     padding: 8px 0;
-    cursor: pointer;
     color: #333333;
 
     &_head {

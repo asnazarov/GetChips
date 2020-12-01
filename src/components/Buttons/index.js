@@ -1,5 +1,7 @@
 import CartBtn from "./CartBtn/CartBtn";
-import DownloadBtn from "./DownloadBtn/DownloadBtn";
+import Delete from "./Delete/Delete";
+import DownloadArrowBtn from "./DownloadArrowBtn/DownloadArrowBtn";
+import DownloadExcelBtn from "./DownloadExcelBtn/DownloadExcelBtn";
 import KeyboardArrow from "./KeyboardArrow/KeyboardArrow";
 import LogoHeader from "./Logo/LogoHeader/LogoHeader";
 import LogoFooter from "./Logo/LogoFooter/LogoFooter";
@@ -13,7 +15,9 @@ import QuantityBtn from "./QuantityBtn/QuantityBtn";
 
 export {
   CartBtn,
-  DownloadBtn,
+  Delete,
+  DownloadArrowBtn,
+  DownloadExcelBtn,
   KeyboardArrow,
   LogoHeader,
   LogoFooter,

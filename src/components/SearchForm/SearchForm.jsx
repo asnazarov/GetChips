@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import './searchForm.scss';
-import {DownloadBtn, SearchBtn} from "../Buttons";
+import {DownloadExcelBtn, SearchBtn} from "../Buttons";
 import {NavLink} from "react-router-dom";
 
 const SearchForm = ({searchMain}) => {
@@ -51,7 +51,7 @@ const SearchForm = ({searchMain}) => {
         <SearchBtn searchMain={searchMain}/>
       </NavLink>
       {
-        !searchMain && <DownloadBtn/>
+        !searchMain && <DownloadExcelBtn/>
       }
 
     </form>
