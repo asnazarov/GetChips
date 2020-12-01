@@ -19,13 +19,17 @@
     color: #333333;
   }
 }
-
+.res {
+  border: 1px solid #969696;
+  border-radius: 3px;
+}
 .res-cont {
-  border: 1px solid #EBEBEB;
   border-collapse: collapse;
-  border-radius: 4px;
+  overflow: hidden;
+  border-radius: 3px;
   width: 100%;
   min-height: 45px;
+
 
   &__list {
     &:hover {

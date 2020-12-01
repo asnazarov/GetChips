@@ -11,9 +11,11 @@ const SearchingResults = () => {
         <div className="res-header">
           <SearchingResultHeader/>
         </div>
-        <table className="res-cont">
-          <SearchingResultContainer/>
-        </table>
+        <div className="res">
+          <table className="res-cont">
+            <SearchingResultContainer/>
+          </table>
+        </div>
       </ResultsBlock>
     </div>
 
