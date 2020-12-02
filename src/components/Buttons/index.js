@@ -1,5 +1,5 @@
 import CartBtn from "./CartBtn/CartBtn";
-import Delete from "./Delete/Delete";
+import DeleteBtn from "./DeleteBtn/DeleteBtn";
 import DownloadArrowBtn from "./DownloadArrowBtn/DownloadArrowBtn";
 import DownloadExcelBtn from "./DownloadExcelBtn/DownloadExcelBtn";
 import KeyboardArrow from "./KeyboardArrow/KeyboardArrow";
@@ -11,11 +11,10 @@ import PhoneBtn from "./PhoneBtn/PhoneBtn";
 import SearchBtn from "./SearchBtn/SearchBtn";
 import SwiperBtnPrev from "./SwiperBtn/SwiperBtnPrev";
 import SwiperBtnNext from "./SwiperBtn/SwiperBtnNext";
-import QuantityBtn from "./QuantityBtn/QuantityBtn";
 
 export {
   CartBtn,
-  Delete,
+  DeleteBtn,
   DownloadArrowBtn,
   DownloadExcelBtn,
   KeyboardArrow,
@@ -27,5 +26,4 @@ export {
   SearchBtn,
   SwiperBtnPrev,
   SwiperBtnNext,
-  QuantityBtn,
 }

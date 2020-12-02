@@ -10,13 +10,20 @@
   cursor: pointer;
   border: 2px solid #439B24;
   border-radius: 8px;
+  transition: .3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
+  svg path {
+    transition: .3s;
+  }
   &_main {
     width: 44px;
     height: 44px;
+
   }
 
   &:hover {
+    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.1);
     background-color: #28a745;
     border-color: #28a745;
 

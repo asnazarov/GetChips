@@ -1,6 +1,6 @@
 import React from 'react';
 import '../resultsBlock.scss';
-import {QuantityBtn} from "../../Buttons";
+import {QuantityAddInput} from "../../Inputs";
 
 const SearchingResultContainer = () => {
 
@@ -48,7 +48,7 @@ const SearchingResultContainer = () => {
         </td>
         <td className="res-cont__item-list">12 раб. дней</td>
         <td className="res-cont__item-list">
-          <QuantityBtn />
+          <QuantityAddInput/>
           <p className="res-cont__sum">22 208 RUB</p>
         </td>
       </tr>
@@ -80,7 +80,7 @@ const SearchingResultContainer = () => {
         </td>
         <td className="res-cont__item-list">12 раб. дней</td>
         <td className="res-cont__item-list">
-          <QuantityBtn />
+          <QuantityAddInput />
           <p className="res-cont__sum">22 208 RUB</p>
         </td>
       </tr>
@@ -112,7 +112,7 @@ const SearchingResultContainer = () => {
         </td>
         <td className="res-cont__item-list">12 раб. дней</td>
         <td className="res-cont__item-list ">
-          <QuantityBtn />
+          <QuantityAddInput />
           <p className="res-cont__sum">22 208 RUB</p>
         </td>
       </tr>

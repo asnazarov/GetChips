@@ -1,7 +1,7 @@
 import React from 'react';
-import './delete.scss';
+import './deleteBtn.scss';
 
-const Delete = ({hex}) => {
+const DeleteBtn = ({hex}) => {
   return (
     <svg className="delete" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
@@ -11,4 +11,4 @@ const Delete = ({hex}) => {
   )
 }
 
-export default Delete
+export default DeleteBtn

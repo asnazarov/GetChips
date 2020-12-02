@@ -1,4 +1,4 @@
-.quantity {
+.quantity-add {
   height: 28px;
   margin: 0 auto;
   max-width: 110px;
@@ -12,6 +12,13 @@
     border: 1px solid #969696;
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
+    &:hover {
+      border: 1px solid #333333;
+    }
+
+    &:focus {
+      border: 1px solid #439B24;
+    }
   }
 
   &__btn {
@@ -21,6 +28,7 @@
     width: 28px;
     outline: none;
     border: none;
+    cursor: pointer;
     border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
   }

@@ -1,0 +1,21 @@
+.quantity-change {
+  width: 70px;
+  height: 28px;
+  border: 1px solid #969696;
+  border-radius: 4px;
+  padding-left: 8px;
+  font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+
+  &:hover {
+    border: 1px solid #333333;
+  }
+
+  &:focus {
+    border: 1px solid #439B24;
+  }
+}
