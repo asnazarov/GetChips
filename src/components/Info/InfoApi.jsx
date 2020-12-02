@@ -16,12 +16,15 @@ const InfoApi = () => {
             <a className="info__link info__link_theme_green" href="tel:+78007001863">8-800-700-18-63</a>
             &nbsp;либо отправить заявку на адрес &nbsp;
             <a className="info__link info__link_theme_green" href="mailto:sales@getchips.ru"
-               target="_blank">sales@getchips.ru</a>
+               target="_blank"
+               rel="noreferrer"
+            >sales@getchips.ru</a>
             .
           </p>
           <p className="info__text">
             Для интеграции в вашу базу данных 1С рекомендуем использовать&nbsp;
-            <a className="info__link info__link_theme_green" href="http://www.megabom1c.ru/" target="_blank">модуль от
+            <a className="info__link info__link_theme_green" href="http://www.megabom1c.ru/" target="_blank"
+               rel="noreferrer">модуль от
               наших партнёров «Эталон
               Автоматизация»</a>
           </p>
@@ -29,7 +32,9 @@ const InfoApi = () => {
             Чтобы подключить и грамотно настроить модуль,&nbsp;
             <a className="info__link info__link_theme_green"
                href="http://www.etalon-a.ru/digiokey/nastrojki_api_agregatorov.php"
-               target="_blank">прочтите руководство пользователя</a>
+               target="_blank"
+               rel="noreferrer"
+            >прочтите руководство пользователя</a>
           </p>
         </div>
       </article>

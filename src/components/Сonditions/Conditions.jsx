@@ -385,7 +385,7 @@ const Conditions = () => {
             <p className="conditions__text conditions__text_subtitle">Тел.&nbsp;
               <a href="tel:+78007001863">8-800-700-18-63</a></p>
             <p className="conditions__text conditions__text_subtitle">Email:&nbsp;
-              <a href="mailto:sales@getchips.ru" target="_blank">sales@getchips.ru</a>
+              <a href="mailto:sales@getchips.ru" target="_blank" rel="noreferrer">sales@getchips.ru</a>
             </p>
           </div>
         </ul>

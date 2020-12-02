@@ -10,7 +10,7 @@ const CartResultHeader = () => {
         <DownloadArrowBtn/>
         <h2 className="res-header__title">Корзина</h2>
         <p className="res-header__text">Есть товар, который подлежит сертификации.
-        <a href="#">Пожалуйста, обратитесь к вашему менеджеру</a>.
+        <p>Пожалуйста, обратитесь к вашему менеджеру</p>.
         </p>
       </div>
       <div className="res-header__wrapper">

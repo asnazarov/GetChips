@@ -1,7 +1,6 @@
 import React from 'react';
 import './info.scss';
 import backgroundContactsSvg from '../../assets/img/background/backgroundContacts.svg';
-import backgroundApiSvg from "../../assets/img/background/backgroundApi.svg";
 
 const InfoContacts = () => {
 
@@ -22,7 +21,7 @@ const InfoContacts = () => {
           </p>
           <p className="info__text">
             Тел./факс:&nbsp;<a className="info__link" href="tel:+78007001863">8-800-700-18-63</a><br/>
-            email: <a className="info__link" href="mailto:sales@getchips.ru" target="_blank">sales@getchips.ru</a>
+            email: <a className="info__link" href="mailto:sales@getchips.ru" target="_blank" rel="noreferrer">sales@getchips.ru</a>
           </p>
         </div>
       </article>

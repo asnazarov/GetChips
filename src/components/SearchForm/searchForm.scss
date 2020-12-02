@@ -6,6 +6,7 @@
 
   &__item {
     margin-right: 20px;
+    position: relative;
 
     &_last {
       width: 100px;
@@ -38,6 +39,17 @@
     color: #969696;
   }
 
+  &__text {
+    font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    top: -25px;
+    left: 0;
+  }
+
   &__input {
     font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
     font-style: normal;
@@ -60,12 +72,16 @@
       border: 1px solid #333333;
     }
 
-    &:focus {
-      border: 1px solid #439B24;
-    }
-
     &:hover::placeholder {
       color: #333333;
+    }
+
+    &:focus {
+      border: 1px solid #439B24;
+
+      &::placeholder {
+        color: transparent;
+      }
     }
 
     &::placeholder {
