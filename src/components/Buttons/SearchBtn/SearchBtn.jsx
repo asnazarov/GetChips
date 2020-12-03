@@ -6,7 +6,7 @@ import './searchBtn.scss';
 const SearchBtn = ({searchMain, searchCriteria}) => {
 
   return (
-    <div  onClick={e => searchCriteria(e)}
+    <div  onClick={searchCriteria}
             className={classNames("search-btn", {
               'search-btn_main': searchMain
             })}

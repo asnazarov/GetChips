@@ -53,8 +53,7 @@ const SearchForm = ({searchMain}) => {
     setColorTextComponent(!findInputNumber ? "#969696" : "#439B24")
   }
 
-  const searchCriteria = (e) => {
-    e.preventDefault()
+  const searchCriteria = () => {
     inputComponentRef.current.value === "" && setComponentError(true)
     inputQuantityRef.current.value === "" && setQuantityError(true)
     dispatch(inputsValue({
@@ -62,6 +61,7 @@ const SearchForm = ({searchMain}) => {
       quan: inputQuantityRef.current.value
     }))
   }
+// console.log(navLinkSearch)
   return (
     <form className="search">
       <div className="search__item">
@@ -139,6 +139,7 @@ const SearchForm = ({searchMain}) => {
           />
         )
       }
+
       {
         !searchMain && <DownloadExcelBtn/>
       }
