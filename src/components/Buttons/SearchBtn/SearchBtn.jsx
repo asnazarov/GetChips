@@ -3,13 +3,14 @@ import classNames from 'classnames';
 import './searchBtn.scss';
 
 
-const SearchBtn = ({searchMain}) => {
+const SearchBtn = ({searchMain, searchCriteria}) => {
 
   return (
-    <div
-      className={classNames("search-btn", {
-        'search-btn_main': searchMain
-      })}
+    <div  onClick={e => searchCriteria(e)}
+            className={classNames("search-btn", {
+              'search-btn_main': searchMain
+            })}
+
     >
       <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
