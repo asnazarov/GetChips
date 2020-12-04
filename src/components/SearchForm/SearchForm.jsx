@@ -8,6 +8,9 @@ import {inputsValue} from "../../redux/actions/search";
 
 
 const SearchForm = ({searchMain}) => {
+  const choiceComponent = ["max34"]
+  const choiceQuantity = ["100", "200", "300", "400"]
+
   const dispatch = useDispatch()
   const [navLinkSearch, setNavLinkSearch] = useState(false)
   const [visibleTextComponent, setVisibleTextComponent] = useState(false)
@@ -44,7 +47,6 @@ const SearchForm = ({searchMain}) => {
 
   const handleOutsideClick = event => {    // клик вне области Input удаляет search__text
     const path = event.path || (event.composedPath && event.composedPath());
-    // const findInput = path.some((item) => item === inputComponentRef.current)
     const findInputQuantity = path.some((item) => item === inputQuantityRef.current)
     const findInputNumber = path.some((item) => item === inputComponentRef.current);
     !findInputQuantity && inputQuantityRef.current?.value === "" && setVisibleTextQuantity(false)
@@ -61,7 +63,16 @@ const SearchForm = ({searchMain}) => {
       quan: inputQuantityRef.current.value
     }))
   }
-// console.log(navLinkSearch)
+  const handleComponent = (component) => {
+    inputComponentRef.current.value = component
+    onClickInputComponent()
+  }
+
+  const handleQuantity = (num) => {
+    inputQuantityRef.current.value = num;
+    onClickInputQuantity()
+  }
+
   return (
     <form className="search">
       <div className="search__item">
@@ -84,7 +95,8 @@ const SearchForm = ({searchMain}) => {
           searchMain && (
             <p className="search__label">
               Например:&nbsp;
-              <span className="search__label-text">max34</span>
+              {choiceComponent.map(item => <span className="search__label-text"
+                                                 onClick={() => handleComponent(item)}>{item}</span>)}
             </p>
           )
         }
@@ -114,10 +126,13 @@ const SearchForm = ({searchMain}) => {
         {
           searchMain && (
             <p className={classNames("search__label", "search__label_stretch")}>
-              <span className="search__label-text">100</span>
-              <span className="search__label-text">200</span>
-              <span className="search__label-text">300</span>
-              <span className="search__label-text">400</span>
+              {
+                choiceQuantity.map(item => (
+                  <span className="search__label-text"
+                        onClick={() => handleQuantity(item)}
+                  >{item}</span>
+                ))
+              }
             </p>
           )
         }

@@ -37,6 +37,10 @@
     cursor: pointer;
     border-bottom: 1px solid #969696;
     color: #969696;
+
+    &:hover {
+      color: #cccccc;
+    }
   }
 
   &__text {
