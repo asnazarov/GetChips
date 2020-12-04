@@ -9,7 +9,8 @@ import Banner from "./CompanyBanners/Banner";
 import FeedbackForm from "./FeedbackForm/FeedbackForm";
 import ResultsBlock from "./ResultsBlock/ResultsBlock";
 import Slider from "./Slider/Slider";
-import SortPopup from "./SortPopup/SortPopup";
+import PopupExcel from "./PopupExcel/PopupExcel";
+import PopupSort from "./PopupSort/PopupSort";
 import Footer from "./Footer/Footer";
 
 // logo компаний партнёров
@@ -59,6 +60,7 @@ export {
   FeedbackForm,
   ResultsBlock,
   Slider,
-  SortPopup,
+  PopupExcel,
+  PopupSort,
   Footer,
 };

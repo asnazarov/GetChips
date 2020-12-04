@@ -25,36 +25,13 @@
     color: #333333;
     margin-right: 8px;
   }
-
-  &__orderBtn {
-    display: flex;
-    font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
-    align-items: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    background-color: #439B24;
-    height: 32px;
-    color: #fff;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
-    transition: .3s;
-    border: 1px solid transparent;
-    border-radius: 6px;
-    padding: 0 16px;
-    &:hover {
-      box-shadow: 0 6px 6px rgba(0, 0, 0, 0.15);
-        cursor: pointer;
-    }
-    &:focus {
-      border: 1px solid #333333;
-    }
-  }
 }
+
 .res {
   border: 1px solid #969696;
   border-radius: 3px;
 }
+
 .res-cont {
   border-collapse: collapse;
   overflow: hidden;
@@ -66,6 +43,7 @@
   &__list {
     &:hover {
       background: rgba(67, 155, 36, 0.1);
+
       .res-cont__sum {
         color: #439B24;
       }

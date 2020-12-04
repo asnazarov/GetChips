@@ -95,8 +95,8 @@ const SearchForm = ({searchMain}) => {
           searchMain && (
             <p className="search__label">
               Например:&nbsp;
-              {choiceComponent.map(item => <span className="search__label-text"
-                                                 onClick={() => handleComponent(item)}>{item}</span>)}
+              {choiceComponent.map((item, index) => <span className="search__label-text"
+                                                 onClick={() => handleComponent(item)} key={index}>{item}</span>)}
             </p>
           )
         }
@@ -127,9 +127,10 @@ const SearchForm = ({searchMain}) => {
           searchMain && (
             <p className={classNames("search__label", "search__label_stretch")}>
               {
-                choiceQuantity.map(item => (
+                choiceQuantity.map((item, index) => (
                   <span className="search__label-text"
                         onClick={() => handleQuantity(item)}
+                        key={index}
                   >{item}</span>
                 ))
               }

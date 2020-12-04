@@ -1,0 +1,43 @@
+.popupExcel {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+  background-color: #0000007a;
+
+  &__wrapper {
+    width: 582px;
+    height: 315px;
+    margin: 70px auto;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+
+  &__title {
+    text-align: center;
+    margin: 15px auto;
+    font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+  }
+
+  &__text {
+    text-align: center;
+    font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
+    margin-bottom: 22px;
+  }
+}

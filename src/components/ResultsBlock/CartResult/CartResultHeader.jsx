@@ -1,6 +1,6 @@
 import React from 'react';
 import '../resultsBlock.scss';
-import {DeleteBtn, DownloadArrowBtn} from "../../Buttons";
+import {DeleteBtn, DownloadArrowBtn, SelectBtn} from "../../Buttons";
 
 const CartResultHeader = () => {
 
@@ -15,7 +15,7 @@ const CartResultHeader = () => {
       </div>
       <div className="res-header__wrapper">
         <DeleteBtn hex="#CA3838"/>
-        <button className="res-header__orderBtn">Оформить заказ на 11 234 973 ₽</button>
+        <SelectBtn text="Оформить заказ на 11 234 973 ₽" />
       </div>
     </>
   )

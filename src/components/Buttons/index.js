@@ -1,4 +1,5 @@
 import CartBtn from "./CartBtn/CartBtn";
+import CloseBtn from "./CloseBtn/CloseBtn";
 import DeleteBtn from "./DeleteBtn/DeleteBtn";
 import DownloadArrowBtn from "./DownloadArrowBtn/DownloadArrowBtn";
 import DownloadExcelBtn from "./DownloadExcelBtn/DownloadExcelBtn";
@@ -9,11 +10,13 @@ import MenuBurgerBtn from "./MenuBurgerBtn/MenuBurgerBtn";
 import PersonalAccBtn from "./PersonalAccBtn/PersonalAccBtn";
 import PhoneBtn from "./PhoneBtn/PhoneBtn";
 import SearchBtn from "./SearchBtn/SearchBtn";
+import SelectBtn from "./SelectBtn/SelectBtn";
 import SwiperBtnPrev from "./SwiperBtn/SwiperBtnPrev";
 import SwiperBtnNext from "./SwiperBtn/SwiperBtnNext";
 
 export {
   CartBtn,
+  CloseBtn,
   DeleteBtn,
   DownloadArrowBtn,
   DownloadExcelBtn,
@@ -24,6 +27,7 @@ export {
   PersonalAccBtn,
   PhoneBtn,
   SearchBtn,
+  SelectBtn,
   SwiperBtnPrev,
   SwiperBtnNext,
 }

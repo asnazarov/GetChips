@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-        <Header/>
+      <Header/>
         <div className="content">
           <Route exact path="/GetChips" component={Home}/>
           <Route path="/about" component={About}/>

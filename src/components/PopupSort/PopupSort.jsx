@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import './sortPopup.scss';
+import './popupSort.scss';
 import {KeyboardArrow} from "../Buttons";
 
-const SortPopup = () => {
+const PopupSort = () => {
   const [visiblePopup, setVisiblePopup] = useState(false)
 
   const openPopup = () => {
@@ -32,4 +32,4 @@ const SortPopup = () => {
   )
 }
 
-export default SortPopup;
+export default PopupSort;
