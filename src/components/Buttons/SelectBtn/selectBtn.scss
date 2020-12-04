@@ -11,7 +11,7 @@
   color: #fff;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   transition: .3s;
-  border: 1px solid transparent;
+  border: 1px solid #439B24;
   border-radius: 6px;
   padding: 0 16px;
   &:hover {
@@ -20,5 +20,13 @@
   }
   &:focus {
     border: 1px solid #333333;
+  }
+  &_popup-cart {
+    background-color: #fff;
+    color: #439B24;
+    &:hover {
+      background-color: #439B24;
+      color: #fff;
+    }
   }
 }

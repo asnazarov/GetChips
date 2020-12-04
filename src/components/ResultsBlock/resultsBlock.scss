@@ -25,6 +25,23 @@
     color: #333333;
     margin-right: 8px;
   }
+  &__link {
+    font-family: 'PF DinDisplay Pro', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    &_theme_green {
+      color: #439B24;
+
+      &:hover {
+        border-bottom: 1px solid #439B24;
+      }
+    }
+
+
+  }
 }
 
 .res {

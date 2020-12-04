@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {Link} from "react-router-dom";
 import {CartBtn, LogoHeader, MenuBurgerBtn, PersonalAccBtn, PhoneBtn} from "../Buttons";
 import './_header.scss';
-import {Menu} from "../index";
+import {Menu, PopupCart} from "../index";
 
 const Header = () => {
   const [coverPlace1220, setCoverPlace1220] = useState(true)
@@ -38,6 +38,7 @@ const Header = () => {
           <Link className="cart" to="/cart">
             <CartBtn hex="#969696"/>
           </Link>
+          {/*<PopupCart/>*/}
           {
             !coverPlace999 && <MenuBurgerBtn/>
           }

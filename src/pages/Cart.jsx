@@ -11,6 +11,7 @@ const Cart = () => {
     <div className="container">
       {/*<h2>Страница корзины</h2>*/}
       <SearchForm/>
+
       <ResultsBlock>
         <div className="res-header">
           <CartResultHeader/>
@@ -20,8 +21,8 @@ const Cart = () => {
             <CartResultContainer/>
           </table>
         </div>
-
       </ResultsBlock>
+
     </div>
   )
 }

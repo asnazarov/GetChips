@@ -9,6 +9,7 @@ import Banner from "./CompanyBanners/Banner";
 import FeedbackForm from "./FeedbackForm/FeedbackForm";
 import ResultsBlock from "./ResultsBlock/ResultsBlock";
 import Slider from "./Slider/Slider";
+import PopupCart from "./PopupCart/PopupCart";
 import PopupExcel from "./PopupExcel/PopupExcel";
 import PopupSort from "./PopupSort/PopupSort";
 import Footer from "./Footer/Footer";
@@ -60,6 +61,7 @@ export {
   FeedbackForm,
   ResultsBlock,
   Slider,
+  PopupCart,
   PopupExcel,
   PopupSort,
   Footer,
